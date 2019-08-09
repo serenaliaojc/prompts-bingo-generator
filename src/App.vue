@@ -1,36 +1,28 @@
 <template>
   <v-app>
-    <v-app-bar app>
-      <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">material design</span>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn
-        text
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">Latest Release</span>
-      </v-btn>
-    </v-app-bar>
+
+    <!-- TODO: shrink on scroll app bar -->
+    <AppBar/>
 
     <v-content>
-      <HelloWorld/>
-      <HelloI18n/>
+
+      <!-- TODO: p1- introduction, user guide -->
+      <!-- TODO: p2- bingo card options, preview -->
+      <!-- TODO: p3- bingo card, share buttons, download -->
+
     </v-content>
+
+    <v-footer app></v-footer>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
-import HelloI18n from './components/HelloI18n';
+import AppBar from './components/AppBar'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    HelloI18n
+    AppBar,
   },
   data: () => ({
     //

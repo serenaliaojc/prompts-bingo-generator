@@ -3,6 +3,9 @@ Project of my interest. No idea when it's gonna be completed.
 
 ## Features
 
+- sample cards
+- prompts sets introduction
+- user guide
 - choose bingo size: 3x3, 4x4, 5x5
 - choose prompt set
 - uncheck unwanted prompts up to 10 prompts
@@ -11,6 +14,7 @@ Project of my interest. No idea when it's gonna be completed.
 - choose background
 - shared with weibo, lofter, twitter, tumblr
 - English & Chinese version
+- feedback
 - mark bingo card online (?)
 
 ## Project setup
