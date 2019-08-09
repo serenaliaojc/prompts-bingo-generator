@@ -3,7 +3,7 @@
     <v-app-bar app>
       <v-toolbar-title class="headline text-uppercase">
         <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
+        <span class="font-weight-light">material design</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
@@ -17,17 +17,20 @@
 
     <v-content>
       <HelloWorld/>
+      <HelloI18n/>
     </v-content>
   </v-app>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld';
+import HelloI18n from './components/HelloI18n';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
+    HelloI18n
   },
   data: () => ({
     //
