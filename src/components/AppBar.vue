@@ -1,17 +1,18 @@
 <template>
   <v-app-bar
     light
-    absolute
+    fixed
+    elevate-on-scroll
   >
-    <v-container fluid>
+    <v-container>
       <v-layout
         justify-space-around
         align-center
       >
-        <h1>
+        <v-toolbar-title>
           <i class="far fa-star primary--text"></i>
           {{ $t('site-name') }}
-        </h1>
+        </v-toolbar-title>
 
         <div>
           <v-tooltip bottom>

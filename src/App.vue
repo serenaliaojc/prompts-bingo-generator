@@ -4,9 +4,11 @@
     <!-- TODO: shrink on scroll app bar -->
     <AppBar/>
 
-    <v-content>
+    <v-content class="white">
 
       <!-- TODO: p1- introduction, user guide -->
+      <Introduction/>
+      <BingoCard/>
       <!-- TODO: p2- bingo card options, preview -->
       <!-- TODO: p3- bingo card, share buttons, download -->
 
@@ -18,11 +20,15 @@
 
 <script>
 import AppBar from './components/AppBar'
+import Introduction from './components/Introduction'
+import BingoCard from './components/BingoCard'
 
 export default {
   name: 'App',
   components: {
     AppBar,
+    Introduction,
+    BingoCard,
   },
   data: () => ({
     //
